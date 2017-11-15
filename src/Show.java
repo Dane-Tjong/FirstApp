@@ -19,11 +19,16 @@ import java.applet.*;
 
         //een (lege) methode die de Applet initialiseert
         public void init() {
+            setBackground(Color.white);
         }
+
         //een methode die de inhoud van het scherm tekent
         public void paint(Graphics g) {
-            g.setcolor(color.yellow);
-            g.drawString("Welcome to Java!!", 50, 60 );
+            g.setColor(Color.blue);
+            g.drawString("DJ", 40, 20);
+            g.setColor(Color.red);
+            g.drawString("Tjong-A-Hung", 10,30);
+
         }
 
     }
